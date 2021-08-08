@@ -14,6 +14,8 @@ Then, to add this to your website or blog, download the `prism-ext-ptcgo.js` fil
 <script src="prism-ext-ptcgo.js"></script>
 ```
 
+Write your deck lists inside `<pre><code class="language-ptcgo"> ... </code></pre>` blocks and Prism will run this PTCGO parser on any code block with class `"language-ptcgo"`.
+
 You'll then need to add the CSS definitions to your CSS file.
 
 | CSS class         | Description                                                       |
